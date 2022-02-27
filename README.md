@@ -1,6 +1,8 @@
 # PrivacyTypes
 A C# WIP library to show how you can prevent accessing PII by restricting which methods can access and read the information during runtime and deserialization.
 
+This library is not intended to be a full security solution. It is intended to be part of a multi-layer security solution, where PrivacyTypes is simply another layer.
+
 ## Examples
 
 Normally, when an object is deserialized you have access to its properties immediately, even if they are sensitive.
