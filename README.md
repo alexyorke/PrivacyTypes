@@ -52,6 +52,9 @@ using (var context = new PrivateTypeAuthorizationContext(PrivateTypeAuthorizatio
 }
 ```
 
+## Goals
+The ultimate goal is for libraries to adopt a PrivacyType-like interface and accept values without the caller needing to access the contents directly. This means that the PrivacyType-like interface would only allow access to the layer that actually needs the data.
+
 ### If I can't see the data, how can I do anything with it?
 
 There are a few ways to access the data:
